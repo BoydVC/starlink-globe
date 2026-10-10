@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Starlink Globe · TokenMax</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stars" aria-hidden="true"></div>
+<header id="top">
+  <div class="brand">
+    <div class="logo"><span class="pulse"></span>STARLINK&nbsp;GLOBE</div>
+    <div class="sub">Constellation · Mobile FCC · Launch cadence · Boyd wall</div>
+  </div>
+  <div class="clocks">
+    <div class="clock"><span class="lbl">ET</span><span id="clock-et">--:--:--</span></div>
+    <div class="clock"><span class="lbl">UTC</span><span id="clock-utc">--:--:--</span></div>
+  </div>
+  <div class="pills">
+    <span class="pill" id="mode-pill">LIVE</span>
+    <span class="pill ghost" id="remaster-pill">REMASTER</span>
+  </div>
+</header>
+
+<main id="wall">
+  <section class="panel hero" id="p-constellation">
+    <div class="ph"><span class="tag">CONSTELLATION</span><span class="rt" id="sl-asof">—</span></div>
+    <div id="constellation"></div>
+    <div class="src" id="src-constellation"></div>
+  </section>
+
+  <section class="panel globe-panel" id="p-globe">
+    <div class="ph"><span class="tag">ORBIT VIEW</span><span class="rt" id="globe-caption">illustrative shells</span></div>
+    <canvas id="globe"></canvas>
+    <div id="globe-legend"></div>
+    <div class="src" id="src-globe"></div>
+  </section>
+
+  <section class="panel" id="p-fcc">
+    <div class="ph"><span class="tag">STARLINK MOBILE · FCC</span><span class="rt" id="fcc-rt">Jim journal</span></div>
+    <div id="fcc"></div>
+    <div class="src" id="src-fcc"></div>
+  </section>
+
+  <section class="panel" id="p-launch">
+    <div class="ph"><span class="tag">LAUNCH CADENCE</span><span class="rt">LL2 · ET</span></div>
+    <div id="launches"></div>
+    <div class="src" id="src-launch"></div>
+  </section>
+
+  <section class="panel wide" id="p-journal">
+    <div class="ph"><span class="tag">FROM JIM'S JOURNAL</span><span class="rt" id="journal-rt">cadence & notes</span></div>
+    <div id="journal"></div>
+    <div class="src" id="src-journal"></div>
+  </section>
+
+  <section class="panel wide" id="p-honesty">
+    <div class="ph"><span class="tag">HONESTY · SOURCES</span><span class="rt">no invented numbers</span></div>
+    <div id="honesty"></div>
+  </section>
+</main>
+
+<footer id="foot">
+  <span id="foot-l">Starlink Globe · TokenMax</span>
+  <span id="foot-r">127.0.0.1 · Python stdlib · facts from on-disk research only</span>
+</footer>
+
+<!--INLINE-DATA-->
+<script src="land.js"></script>
+<script src="globe.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

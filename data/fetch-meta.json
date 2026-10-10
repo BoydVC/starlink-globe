@@ -1,0 +1,6 @@
+{
+ "fetched_at": "2026-10-07T18:28:40-04:00",
+ "url": "http://celestrak.org/NORAD/elements/gp.php?GROUP=starlink&FORMAT=json",
+ "note": "HTTPS failed with a TLS handshake error from the box; plain HTTP succeeded.",
+ "count": 11110
+}

@@ -1,0 +1,25 @@
+PASS cache count 11110 matches fetch-meta count 11110
+PASS constellation size plausible (11110)
+PASS NORAD IDs unique
+PASS every object is named STARLINK-*
+PASS [fetch time] 11110/11110 propagate without SGP4 error
+PASS [fetch time] 99.7% have altitude 300–700 km (median 478 km)
+PASS [fetch time] 100.0% have orbital speed 7.4–7.9 km/s
+PASS [fetch +12h] 11110/11110 propagate without SGP4 error
+PASS [fetch +12h] 99.7% have altitude 300–700 km (median 478 km)
+PASS [fetch +12h] 100.0% have orbital speed 7.4–7.9 km/s
+PASS snapshot 5.60 MB < 25 MB
+PASS snapshot has no external scripts or CDNs
+PASS snapshot embeds the same count as the cache
+PASS server on :4264 serves the app
+PASS browser loaded 11110 satellites
+PASS browser propagated 11110
+PASS overhead-Millersville count 81 is plausible
+PASS rendering (28 frames)
+PASS 600× speed advances sim time (+66.1 min)
+PASS launch strip shows 10 launches
+PASS no error banner
+PASS click opens the inspect card: STARLINK-35585
+PASS no JS errors []
+
+23 passed, 0 failed

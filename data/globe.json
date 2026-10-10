@@ -1,0 +1,283 @@
+{
+ "generatedAt": "2026-10-10T17:29:27.364779Z",
+ "generatedAtET": "2026-10-10T13:29:27.364809-04:00",
+ "timezone": "America/New_York",
+ "title": "Starlink Globe",
+ "subtitle": "Constellation \u00b7 Mobile FCC \u00b7 Launch cadence",
+ "remaster": "Sat Oct 10, 2026 afternoon \u00b7 TokenMax daily-usage-check",
+ "celestrak": {
+  "count": 11110,
+  "fetched_at": "2026-10-07T18:28:40-04:00",
+  "url": "http://celestrak.org/NORAD/elements/gp.php?GROUP=starlink&FORMAT=json",
+  "note": "HTTPS failed with a TLS handshake error from the box; plain HTTP succeeded.",
+  "label": "CelesTrak GP \u00b7 GROUP=starlink (cached)",
+  "home": "https://celestrak.org/",
+  "gap": null
+ },
+ "mcdowell": {
+  "available": true,
+  "total": {
+   "launched": 12988,
+   "down": 1851,
+   "inOrbit": 11137,
+   "working": 11123,
+   "drift": 130,
+   "ascent": 235,
+   "operational": 9726
+  },
+  "byGen": {
+   "Starlink Gen1": {
+    "launched": 4714,
+    "down": 1565,
+    "inOrbit": 3149,
+    "working": 3137,
+    "drift": 0,
+    "ascent": 0,
+    "operational": 2418
+   },
+   "Starlink Gen2": {
+    "launched": 8228,
+    "down": 266,
+    "inOrbit": 7962,
+    "working": 7960,
+    "drift": 114,
+    "ascent": 225,
+    "operational": 7308
+   },
+   "Starlink Gen3D": {
+    "launched": 2,
+    "down": 2,
+    "inOrbit": 0,
+    "working": 0,
+    "drift": 0,
+    "ascent": 0,
+    "operational": 0
+   },
+   "Starlink Gen3": {
+    "launched": 46,
+    "down": 20,
+    "inOrbit": 26,
+    "working": 26,
+    "drift": 16,
+    "ascent": 10,
+    "operational": 0
+   }
+  },
+  "dataAsOf": "2026 Oct 9 0026:02 UTC",
+  "label": "Jonathan McDowell \u00b7 Jonathan's Space Report, Starlink statistics",
+  "home": "https://planet4589.org/space/con/star/stats.html",
+  "fetchedAt": "2026-10-10T12:21:48.190632Z",
+  "url": "https://planet4589.org/space/con/star/stats.html",
+  "missionGeneratedAt": "2026-10-10T17:13:16.832936Z",
+  "gap": null
+ },
+ "launches": {
+  "items": [
+   {
+    "name": "Falcon 9 Block 5 | Starlink Group 15-25",
+    "mission": "Starlink Group 15-25",
+    "vehicle": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 4E",
+    "location": "Vandenberg SFB, CA, USA",
+    "lat": 34.632,
+    "lon": -120.611,
+    "net": "2026-10-12T23:00:00Z",
+    "netPrecision": "Minute",
+    "windowStart": "2026-10-12T23:00:00Z",
+    "windowEnd": "2026-10-13T03:00:00Z",
+    "status": "Go for Launch",
+    "statusAbbrev": "Go",
+    "missionDesc": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+    "apiUrl": "https://ll.thespacedevs.com/2.3.0/launches/97c6f5e1-299e-4652-b72d-9618ac047076/"
+   }
+  ],
+  "label": "Launch Library 2 \u00b7 The Space Devs",
+  "home": "https://thespacedevs.com/llapi",
+  "fetchedAt": "2026-10-10T17:13:18.127049Z",
+  "gap": null
+ },
+ "fccMobile": {
+  "available": true,
+  "gap": null,
+  "facts": [
+   {
+    "claim": "FCC approved 15,000 next-gen Starlink Mobile (direct-to-device) satellites",
+    "detail": "Grant dated Tue Oct 6, 2026 (reported Wed Oct 7 in Jim journal).",
+    "bullets": [
+     {
+      "key": "spectrum",
+      "text": "EchoStar spectrum it's acquiring (testing only until that deal closes, scheduled 11/30/2027) and T-Mobile's PCS G-block"
+     },
+     {
+      "key": "carrier_waiver",
+      "text": "waived the requirement that SpaceX partner with a terrestrial carrier. That opens a path for Starlink Mobile to compete directly with AT&T, T-Mobile and Verizon"
+     },
+     {
+      "key": "promised_speed",
+      "text": "about 150 Mbps per user (5G-like), versus about 4 Mbps today on roughly 650 sats"
+     },
+     {
+      "key": "current_speed",
+      "text": "about 4 Mbps today on roughly 650 sats"
+     },
+     {
+      "key": "deadline_50",
+      "text": "50% launched by Oct 2032 and the full constellation by Oct 2035"
+     },
+     {
+      "key": "deadline_full",
+      "text": "full constellation by Oct 2035"
+     },
+     {
+      "key": "more_spectrum",
+      "text": "proposed opening more spectrum for direct-to-device service"
+     }
+    ],
+    "file": "ij_2026-10-07_research.md",
+    "links": [
+     "https://uk.pcmag.com/wireless-carriers/167711/fcc-green-lights-spacexs-15000-satellites-for-starlink-mobile",
+     "https://spacenews.com/fcc-tees-up-another-d2d-boost-afte"
+    ]
+   },
+   {
+    "claim": "Starlink Mobile: The FCC approved 15,000 next-gen direct-to-device sats and waived the carrier-partner rule, so Starlink could compete with AT&T, T-Mobile and Verizon directly. SpaceX promises about 150 Mbps per user, vs about 4 Mbps today.",
+    "file": "ij_2026-10-07_content.md",
+    "links": [
+     "https://uk.pcmag.com/wireless-carriers/167711/fcc-green-lights-spacexs-15000-satellites-for-starlink-mobile",
+     "https://spacenews.com/fcc-tees-up-another-d2d-boost-afte",
+     "https://spacenews.com/fcc-tees-up-another-d2d-boost-after-approving-starlink-mobile-upgrade/"
+    ]
+   },
+   {
+    "claim": "Starlink Mobile V2 sats will give more than 100x V1's bandwidth (on the FCC approval)",
+    "file": "ij_2026-10-07_content.md",
+    "key": "v2_bandwidth"
+   }
+  ],
+  "sources": [
+   "https://uk.pcmag.com/wireless-carriers/167711/fcc-green-lights-spacexs-15000-satellites-for-starlink-mobile",
+   "https://spacenews.com/fcc-tees-up-another-d2d-boost-after-approving-starlink-mobile-upgrade/"
+  ],
+  "files": [
+   "ij_2026-10-07_research.md",
+   "ij_2026-10-07_content.md"
+  ],
+  "label": "Jim Interest Journal \u00b7 FCC Starlink Mobile (Oct 6\u20137, 2026)"
+ },
+ "cadence": {
+  "cards": [
+   {
+    "title": "Starship Flight 14 \u00b7 first Starlink V3 deploy",
+    "body": "26 Starlink V3 deployed (~161 mi alt); Musk: all 26 nominal / operating; SpaceX: expected to raise orbits and serve customers in a few weeks \u2014 first revenue-generating Starship mission framing. NASA Admin Jared Isaacman congratulated on X. Still ahead: orbital refueling demo + Ship RTLS/catch.",
+    "extra": "Musk: all 26 nominal / operating (per Jim Sep 29 recap). First revenue-generating Starship framing in journal.",
+    "file": "ij_2026-09-29_research.md",
+    "links": [
+     "https://www.usatoday.com/story/tech/space/2026/09/29/spacex-starship-orbit-flight-14-recap/91788376007/",
+     "https://arstechnica.com/space/2026/09/starships-first-orbital-launch-gives-lift-to-spacexs-next-gen-starlinks/",
+     "https://www.spacex.com/launches/starship-flight-14"
+    ],
+    "when": "2026-09-28 / journal 2026-09-29"
+   },
+   {
+    "title": "Last planned Falcon 9 Starlink from Florida",
+    "body": "SpaceX VP of Launch Kiko Dontchev: Tue Aug 25 SLC-40 flight was the last planned Falcon 9 Starlink from Florida; future East Coast Starlink on Starship; Vandenberg continues Falcon 9 Starlink.",
+    "extra": "Journal also notes ~260 Falcon 9 Starlink missions from Florida since May 23, 2019 (company statement coverage).",
+    "file": "jim/musk-cos-2026-08-25.md",
+    "links": [
+     "https://keyt.com/vandenberg-space-base/2026/08/25/falcon-9-launch-from-vandenberg-sfb-scheduled-for-early-wednesday-morning/"
+    ],
+    "when": "2026-08-25"
+   },
+   {
+    "title": "Starlink 10-49 (Cape)",
+    "body": "Falcon 9 launched 29 Starlink satellites from SLC-40, Cape Canaveral, Tue Aug 25, 2026 at 5:33 a.m. ET (SpaceX mission page per Jim).",
+    "extra": "Booster B1067, 37th flight; landing A Shortfall of Gravitas. Official wording: \u201c29 Starlink satellites\u201d (v2-mini is tracker language).",
+    "file": "jim/musk-cos-2026-08-25.md",
+    "links": [
+     "https://www.spacex.com/launches"
+    ],
+    "when": "2026-08-25"
+   },
+   {
+    "title": "Starlink 15-22 (Vandenberg)",
+    "body": "Falcon 9 launched 27 Starlink satellites from SLC-4E, Vandenberg, Wed Aug 26, 2026 at 2:35 a.m. PT / 5:35 a.m. ET (SpaceX mission page per Jim).",
+    "extra": "Booster B1082, 24th flight. First Falcon 9 Starlink from Vandenberg after Florida Falcon Starlink pause statement.",
+    "file": "jim/musk-cos-2026-08-26.md",
+    "links": [],
+    "when": "2026-08-26"
+   },
+   {
+    "title": "Next Falcon Starlink \u00b7 Group 15-25 (journal carry)",
+    "body": "**No new Thu ops** beyond F14 LEO + 26 Starlink V3 deploy (Mon Sep 28). Wed/Thu capacity pieces (e.g. Tesla Oracle ~26 Tbps framing) are day-after analysis, not a new flight. Next classic Falcon Starlink: **Group 15-25 NET Sat Oct 10 ~16:00 UTC**, SLC-4E Vandenberg (~27 V2 Mini; booster B1082 ~25th flight per trackers).",
+    "extra": "Live NET/pad/status come from Launch Library 2 via Mission Control cache (see Launch cadence panel) \u2014 journal NET may be stale vs LL2.",
+    "file": "ij_2026-10-01_research.md",
+    "links": [
+     "https://www.electrive.com/2026/10/01/tesla-postpones-roadster-unveiling-due-to-weather/",
+     "https://www.spacex.com/launches/starship-flight-14",
+     "https://www.teslaoracle.com/2026/09/30/spacex-deployed-26-terabits-per-second-of-starlink-v3-bandwidth-in-a-single-starship-launch-flight-14/",
+     "https://nextspaceflight.com/launches/details/8401/",
+     "https://www.cnbc.com/2026/09/28/elon-musk-spacexai-subpoenaed-by-nyc-in-ai-safety-investigation.html"
+    ],
+    "when": "2026-10-01"
+   },
+   {
+    "title": "Starmind / Starlink plans (Space Safety page)",
+    "body": "Jim Oct 6: SpaceX Space Safety page plans \u201cup to 100,000 Starlink\u201d and \u201cup to 1 million Starmind AI satellites.\u201d FCC still reviewing Starmind application (Oct 7 carry: no new facts).",
+    "extra": "These are published plans / application framing \u2014 not in-orbit counts.",
+    "file": "ij_2026-10-06_research.md",
+    "links": [],
+    "when": "2026-10-06"
+   },
+   {
+    "title": "V3 deploy video + LEO maneuver data push",
+    "body": "Jim Oct 6: Starlink posted first video of V3 sats deploying from Starship; also argued undisclosed maneuvers by other operators are the biggest LEO risk (~half of ~650 maneuvering sats encountered share data \u2014 per journal).",
+    "extra": null,
+    "file": "ij_2026-10-06_content.md",
+    "links": [
+     "https://teslanorth.com/2026/10/06/starlink-undisclosed-maneuvers-leo-risk/",
+     "https://broadbandbreakfast.com/starlink-opens-beta-for-community-internet-hosts/",
+     "https://www.gurufocus.com/news/9111673/spacex-stock-rises-again-goldman-sachs-hikes-price-target-on-ai-surge",
+     "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-pledg"
+    ],
+    "when": "2026-10-06"
+   }
+  ],
+  "gap": null,
+  "label": "Jim Interest Journal \u00b7 launch cadence & constellation notes"
+ },
+ "millersville": {
+  "name": "Millersville, MD",
+  "lat": 39.06,
+  "lon": -76.64,
+  "note": "Boyd home area \u00b7 marker only (not live overhead tracking in this remaster)."
+ },
+ "honesty": [
+  "Satellite counts are never invented. CelesTrak \u201ctracked\u201d = objects in GROUP=starlink at cache fetch time.",
+  "McDowell totals (in orbit / working / operational / by generation) come from Mission Control\u2019s cached Jonathan McDowell table \u2014 dataAsOf shown on page.",
+  "Decorative globe dots are ILLUSTRATIVE inclination shells (53\u00b0 / 43\u00b0 / 70\u00b0 / 97\u00b0), not live SGP4 tracks. Legacy SGP4 globe archived under legacy/.",
+  "FCC Starlink Mobile claims are quoted from Jim\u2019s Oct 6\u20137 journals with source links \u2014 gaps labeled if a field was not in those files.",
+  "Launch NETs/status from Launch Library 2 via Mission Control cache; journal NETs may lag LL2."
+ ],
+ "shells": [
+  {
+   "inc": 53,
+   "label": "53\u00b0 shell",
+   "note": "Illustrative inclination family (McDowell / common tracker grouping)"
+  },
+  {
+   "inc": 43,
+   "label": "43\u00b0 shell",
+   "note": "Illustrative"
+  },
+  {
+   "inc": 70,
+   "label": "70\u00b0 shell",
+   "note": "Illustrative"
+  },
+  {
+   "inc": 97,
+   "label": "~97\u00b0 polar",
+   "note": "Illustrative"
+  }
+ ]
+}
