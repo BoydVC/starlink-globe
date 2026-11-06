@@ -14,7 +14,7 @@ PASS snapshot embeds the same count as the cache
 PASS server on :4264 serves the app
 PASS browser loaded 11110 satellites
 PASS browser propagated 11110
-PASS overhead-Millersville count 81 is plausible
+PASS overhead-Lakeside count 81 is plausible
 PASS rendering (28 frames)
 PASS 600× speed advances sim time (+66.1 min)
 PASS launch strip shows 10 launches

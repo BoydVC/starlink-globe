@@ -253,7 +253,7 @@
         ctx.fill();
         ctx.font = "600 10px DejaVu Sans Mono,monospace";
         ctx.fillStyle = "#ffd24c";
-        ctx.fillText("Millersville", p[0] + 8, p[1] - 6);
+        ctx.fillText("Lakeside", p[0] + 8, p[1] - 6);
       }
     }
     for (const pad of G.pads || []) {
