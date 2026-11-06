@@ -324,10 +324,10 @@ def extract_cadence_notes():
 
 def millersville():
     return {
-        "name": "Millersville, MD",
+        "name": "Lakeside, MD",
         "lat": 39.06,
         "lon": -76.64,
-        "note": "Boyd home area · marker only (not live overhead tracking in this remaster).",
+        "note": "Rivera home area · marker only (not live overhead tracking in this remaster).",
     }
 
 def build():

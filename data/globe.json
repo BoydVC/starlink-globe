@@ -246,10 +246,10 @@
   "label": "Jim Interest Journal \u00b7 launch cadence & constellation notes"
  },
  "millersville": {
-  "name": "Millersville, MD",
+  "name": "Lakeside, MD",
   "lat": 39.06,
   "lon": -76.64,
-  "note": "Boyd home area \u00b7 marker only (not live overhead tracking in this remaster)."
+  "note": "Rivera home area \u00b7 marker only (not live overhead tracking in this remaster)."
  },
  "honesty": [
   "Satellite counts are never invented. CelesTrak \u201ctracked\u201d = objects in GROUP=starlink at cache fetch time.",

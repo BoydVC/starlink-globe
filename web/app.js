@@ -240,7 +240,7 @@
           return `<span><i class="sw" style="background:${cols[i % cols.length]}"></i>${esc(s.label)} · ILLUSTRATIVE</span>`;
         })
         .join("") +
-      `<span><i class="sw" style="background:#ffd24c"></i>Millersville marker</span>`;
+      `<span><i class="sw" style="background:#ffd24c"></i>Lakeside marker</span>`;
     $("src-globe").textContent =
       "Decorative shell dots only — not live SGP4. Day/night terminator from low-precision solar position. Land: Natural Earth 110m (via Mission Control land.js). Legacy live-track globe archived under legacy/.";
   }

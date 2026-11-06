@@ -2,7 +2,7 @@
 (function () {
   "use strict";
   const D = window.SL_DATA, S = window.satellite, RE = 6371.0, MU = 398600.4418;
-  const OBS = { lat: 39.06, lon: -76.64, h: 0.04, name: "Millersville, MD" }, MIN_EL = 25;
+  const OBS = { lat: 39.06, lon: -76.64, h: 0.04, name: "Lakeside, MD" }, MIN_EL = 25;
   const $ = (id) => document.getElementById(id);
   const banner = (msg) => { const b = $("banner"); b.textContent = msg; b.style.display = "block"; };
   if (!D || !D.omm || !D.omm.length) { banner("Starlink orbital data is unavailable: CelesTrak could not be reached and no cached copy exists. Nothing is shown rather than made up."); $("src").textContent = "no data"; return; }
@@ -165,7 +165,7 @@
       <table><tr><td class="muted">NORAD ID</td><td class="n">${s.o.NORAD_CAT_ID}</td></tr><tr><td class="muted">Intl designator</td><td class="n">${s.o.OBJECT_ID}</td></tr>
       <tr><td class="muted">Altitude</td><td class="n">${s.alt.toFixed(1)} km</td></tr><tr><td class="muted">Speed (inertial)</td><td class="n">${s.vel.toFixed(3)} km/s · ${Math.round(s.vel * 3600).toLocaleString()} km/h</td></tr>
       <tr><td class="muted">Sub-point</td><td class="n">${Math.abs(s.lat).toFixed(2)}°${s.lat >= 0 ? "N" : "S"} ${Math.abs(s.lon).toFixed(2)}°${s.lon >= 0 ? "E" : "W"}</td></tr>
-      <tr><td class="muted">From Millersville</td><td class="n">${s.el.toFixed(1)}° el · ${Math.round(s.az)}° az</td></tr>
+      <tr><td class="muted">From Lakeside</td><td class="n">${s.el.toFixed(1)}° el · ${Math.round(s.az)}° az</td></tr>
       <tr><td class="muted">Inclination</td><td class="n">${s.inc.toFixed(2)}°</td></tr><tr><td class="muted">Period</td><td class="n">${(1440 / s.o.MEAN_MOTION).toFixed(1)} min</td></tr>
       <tr><td class="muted">Group</td><td class="n">${s.shell.label}</td></tr><tr><td class="muted">Elements epoch</td><td class="n">${age.toFixed(1)} h old</td></tr></table>`;
     $("xsel").onclick = () => select(null);

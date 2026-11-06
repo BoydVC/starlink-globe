@@ -30,7 +30,7 @@ try {
   await b.goto("file://" + snapP + "?speed=600", 8000);
   const s = await b.ev("({N:__sl.N, ok:__sl.okCount(), over:__sl.overhead(), frames:__sl.frames, off:__sl.st.offsetMin, launches:document.querySelectorAll('#launches .ln').length, banner:getComputedStyle(document.getElementById('banner')).display})");
   ok(s.N === omm.length, `browser loaded ${s.N} satellites`); ok(s.ok / s.N > 0.98, `browser propagated ${s.ok}`);
-  ok(s.over > 0 && s.over < 500, `overhead-Millersville count ${s.over} is plausible`); ok(s.frames > 3, `rendering (${s.frames} frames)`);
+  ok(s.over > 0 && s.over < 500, `overhead-Lakeside count ${s.over} is plausible`); ok(s.frames > 3, `rendering (${s.frames} frames)`);
   ok(s.off > 1, `600× speed advances sim time (+${s.off.toFixed(1)} min)`); ok(s.launches >= 2, `launch strip shows ${s.launches - 1} launches`); ok(s.banner === "none", "no error banner");
   // click-to-inspect via real pointer events on the highest overhead satellite
   const p = await b.ev("(()=>{__sl.st.playing=false;const i=__sl.sats.indexOf(__sl.st.overhead[0]);__sl.camera.position.copy(__sl.llVec(39,-76.6,2.2));__sl.controls.update();return Object.assign(__sl.project(i),{i})})()"); await sleep(1500);
